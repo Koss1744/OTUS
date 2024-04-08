@@ -60,7 +60,7 @@ R1(config)#end
 R1(config)#clock set 9:00:00 8 April 2024
 R1(config)#exit
 write memory
-
+```
 
 Для коммутатора:
 ```
@@ -83,15 +83,6 @@ S1(config)#exit
 write memory
 ```
 
-
-<details>
-<summary>и при входе <b>в защищенный режим</b> – тоже попросят пароль</summary>
-
-```
-R1>enable
-Password:
-```
-</details>
 
 #### Настройка PC-A
 
